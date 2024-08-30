@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -21,18 +22,29 @@ body {
     justify-content: space-evenly;
     font-family: "Rajdhani", sans-serif;
     font-optical-sizing: auto;
+    background: url('https://img.freepik.com/free-vector/realistic-neon-lights-background_23-2148907367.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 .standmmm{
     font-size: 40px;
-    color: #000;
+    color: #fff;
+}
+.tdmaium{
+    color: #037d88;
+    font-size: 36px;
 }
 .discov{
     font-size: 22px;
-    color: #037d88;
+    color: #fff;
     margin-top: 40px;
-    line-height: 30px;
-    word-spacing: 8px;
     text-align: justify;
+    width: 60%;
+    font-weight: 500;
+    line-height: 30px;
 }
 .next{
     padding: 60px 60px 60px 60px;
@@ -42,9 +54,7 @@ body {
     justify-content: space-evenly;
     font-family: "Rajdhani", sans-serif;
     font-optical-sizing: auto;
-    background: #dde9f2;
-    margin-top: -5px;
-}
+
 .waveor{
     margin-top: -35px;
 }
@@ -54,11 +64,12 @@ body {
     margin-bottom: 60px;
 }
 .standout{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     border-radius: 10px;
 }
 .landscape{
+    font-family: "Lora", serif;
     text-align: justify;
     width: 60%;
     color: #000;
