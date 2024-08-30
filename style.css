@@ -410,6 +410,12 @@ body {
 }
 /* --------------------------------------------- */
 .uptreoi{
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/007/680/371/small/abstract-shadow-of-mirror-transparency-and-gradient-effects-background-have-blank-space-free-vector.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     padding: 60px;
     width: 100%;
     display: flex;
