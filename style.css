@@ -706,6 +706,7 @@ body {
     }
     .container{
         padding: 20px;
+        padding-left: 10px;
         padding-top: 0;
     }
   }
