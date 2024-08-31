@@ -360,12 +360,20 @@ body {
 /* --------------------------------------------- */
 .btowbsection{
     padding: 60px;
+    padding-bottom: 0px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     font-family: "Rajdhani", sans-serif;
     font-optical-sizing: auto;
+    border-top: 20px solid #1b7f8b;
+
+    background: url('https://img.freepik.com/free-photo/white-simple-textured-design-background_53876-106174.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .btowmadgmb{
     color: #ff6a03;
@@ -399,6 +407,15 @@ body {
     justify-content: space-evenly;
     font-family: "Rajdhani", sans-serif;
     font-optical-sizing: auto;
+
+    
+    background: url('https://img.freepik.com/free-photo/white-simple-textured-design-background_53876-106174.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
 }
 .cwrftmb{
     font-size: 40px;
@@ -420,6 +437,7 @@ body {
     border-radius: 20px;
     border: 2px solid red;
     border-radius: 10px;
+    background: #fff;
 }
 .dnsog{
     font-size: 25px;
@@ -465,11 +483,17 @@ body {
 }
 /* --------------------------------------------- */
 .uptreoi{
-    background: url('https://static.vecteezy.com/system/resources/thumbnails/007/680/371/small/abstract-shadow-of-mirror-transparency-and-gradient-effects-background-have-blank-space-free-vector.jpg');
+
+    border-top: 20px solid #1b7f8b;
+    border-bottom: 20px solid #1b7f8b;
+    padding: 60px;
+    background: url('https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtMjc4LWJvb20tMTI0LXguanBn.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-top: 20px solid #1b7f8b;
+
 
     padding: 60px;
     width: 100%;
