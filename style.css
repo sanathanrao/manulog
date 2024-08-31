@@ -583,7 +583,8 @@ body {
   }
   
   .accordion .accordion-item {
-    /* border-bottom: 2px solid #e5e5e5; */
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px;
   }
   
   .accordion .accordion-item button[aria-expanded='true'] {
