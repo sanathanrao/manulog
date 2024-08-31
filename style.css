@@ -86,6 +86,12 @@ body {
 .dertialor{
     margin-left: 50px;
 }
+@media screen and (max-width: 1024px){
+    .discov{
+        width: 100%;
+    }
+
+}
 @media screen and (max-width: 1000px){
     .msakd{
         display: flex;
@@ -122,7 +128,7 @@ body {
     .landscape{
         font-size: 18px;
         line-height: 25px;
-        margin-bottom: 50px;
+        margin-bottom: 0px;
     }
 }
 @media screen and (max-width: 400px){
@@ -133,7 +139,7 @@ body {
         margin-right: auto;
     }
     .standmmm{
-        font-size: 20px;
+        font-size: 24px;
     }
 }
 /* --------------------------- */
@@ -223,11 +229,20 @@ body {
     }
 }
 @media screen and (max-width: 600px){
+    .wdmiitimc{
+        font-size: 24px;
+    }
+    .wordldneningdif{
+        padding: 20px;
+    }
+    .tdmaium{
+      font-size: 24px;
+    }
     .wdmmc{
         padding: 20px;
     }
     .asidmchy{
-        font-size: 24px;
+        font-size: 22px;
     }
     .remcto{
         font-size: 16px;
@@ -262,6 +277,7 @@ body {
 .Dsgwbswdc{
     font-size: 38px;
     color: #037d88;
+    text-transform: uppercase;
 }
 .mcpsfaip{
     display: flex;
@@ -273,7 +289,6 @@ body {
 .mccnlr{
     font-family: "Lora", serif;
     text-align: justify;
-    width: 60%;
     font-size: 18px;
     line-height: 30px;
     padding: 25px;
@@ -283,6 +298,11 @@ body {
     border: 2px solid #ff6c04;
     border-radius: 10px;
 
+}
+.frdibpg{
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
 }
 /* Custom Scrollbar Styles */
 .mccnlr::-webkit-scrollbar {
@@ -314,10 +334,26 @@ body {
     .aipdbnine{
         margin-top: 30px;
     }
+    .frdibpg{
+        margin-top: 30px;
+    }
 }
 @media screen and (max-width: 600px){
+.Dsgwbswdc{
+ font-size: 24px;
+}
     .drivesection{
         padding: 20px;
+    }
+    .frdibpg{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 500px){
+    .frdibpg{
+        width: 300px;
+        height: 300px;
     }
 }
 /* --------------------------------------------- */
@@ -353,6 +389,7 @@ body {
     font-size: 30px;
     margin-bottom: 40px;
 }
+/* ---------------------------- */
 .ctach{
     padding: 60px;
     width: 100%;
@@ -363,7 +400,7 @@ body {
     font-optical-sizing: auto;
 }
 .cwrftmb{
-    font-size: 45px;
+    font-size: 40px;
     margin-bottom: 30px;
     display: flex;
     color: #ff6a03;
@@ -380,9 +417,7 @@ body {
 .boxdegeca{
     padding: 20px;
     border-radius: 20px;
-    width: 500px;
-    height: 260px;
-    border: 2px solid #037d88;
+    border: 2px solid red;
     border-radius: 10px;
 }
 .dnsog{
@@ -403,10 +438,23 @@ body {
     justify-content: center;
     align-items: center;
 }
-.frdibpg{
-    width: 500px;
-    height: 400px;
-    border-radius: 10px;
+@media screen and (max-width: 600px){
+    .cwrftmb{
+        font-size: 26px;
+    }
+    .ctach{
+        padding: 20px;
+    }
+.btowbsection{
+    padding: 20px;
+}
+.wsitnom{
+    font-size: 22px;
+}
+.wcpbbfoys{
+    font-size: 26px;
+    margin: 20px 0;
+}
 }
 /* --------------------------------------------- */
 .uptreoi{
@@ -464,6 +512,18 @@ body {
     font-family: Lora, serif;
     line-height: 30px;
 }
+@media screen and (max-width: 600px){
+    .uptreoi{
+        padding: 20px;
+    }
+    .ysnatdef{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .wbfehc{
+        font-size: 18px;
+    }
+}
 /* ---------------------------------------------- */
 .ddgslfsoa{
     padding: 60px;
@@ -480,6 +540,15 @@ body {
     display: flex;
     color: #ff6a03;
     text-transform: uppercase;
+}
+@media screen and (max-width: 600px){
+    .ddgslfsoa{
+        padding: 20px;
+    }
+    .tbopwusth{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
 }
 /* ---------------------------Faq--------------- */
 .hcdmitcj{
@@ -541,8 +610,9 @@ body {
   }
   
   .accordion button .accordion-title {
+    font-family: "Rajdhani", sans-serif;
     padding: 1em 1.5em 1em 0;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 24px;
   }
   
