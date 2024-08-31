@@ -557,6 +557,9 @@ body {
     }
 }
 /* ---------------------------Faq--------------- */
+.hmpeeoi{
+    padding: 20px;
+}
 .hcdmitcj{
     width: 80%;
 }
@@ -580,7 +583,7 @@ body {
   }
   
   .accordion .accordion-item {
-    border-bottom: 1px solid #e5e5e5;
+    /* border-bottom: 2px solid #e5e5e5; */
   }
   
   .accordion .accordion-item button[aria-expanded='true'] {
@@ -621,7 +624,7 @@ body {
   .accordion button .accordion-title {
     font-family: "Rajdhani", sans-serif;
     padding: 1em 1.5em 1em 0;
-    font-size: 22px;
+    font-size: 21px;
     line-height: 24px;
     font-weight: 500;
   }
@@ -681,7 +684,7 @@ body {
     font-family: "Lora", serif;
     font-size: 16px;
     font-weight: 300;
-    padding: 5px;
+    padding-top: 3px;
     color: #7B8391;
   }
   @media screen and (max-width: 1330px){
