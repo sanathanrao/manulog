@@ -456,6 +456,12 @@ body {
     margin: 20px 0;
 }
 }
+@media screen and (max-width: 400px){
+    .wcpbbfoys{
+        font-size: 22px;
+        margin: 20px 0;
+    }
+}
 /* --------------------------------------------- */
 .uptreoi{
     background: url('https://static.vecteezy.com/system/resources/thumbnails/007/680/371/small/abstract-shadow-of-mirror-transparency-and-gradient-effects-background-have-blank-space-free-vector.jpg');
@@ -561,7 +567,6 @@ body {
     font-family: "Rajdhani", sans-serif;
     padding: 60px;
     padding-top: 0;
-    width: 45rem;
     margin-bottom: 100px;
   }
   .eksnons{
@@ -587,7 +592,11 @@ body {
     display: block;
     text-align: left;
     width: 100%;
-    padding: 1em 0;
+    /* padding: 1em 0; */
+    padding: 26px;
+    padding-left: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
     color: #7288a2;
     font-size: 1.15rem;
     font-weight: 400;
@@ -614,6 +623,7 @@ body {
     padding: 1em 1.5em 1em 0;
     font-size: 22px;
     line-height: 24px;
+    font-weight: 500;
   }
   
   .accordion button .icon {
@@ -671,8 +681,7 @@ body {
     font-family: "Lora", serif;
     font-size: 16px;
     font-weight: 300;
-    line-height: 28px;
-    margin: 10px 0;
+    padding: 5px;
     color: #7B8391;
   }
   @media screen and (max-width: 1330px){
@@ -682,5 +691,16 @@ body {
     .container{
         margin-bottom: 0px;
         padding-bottom: 0;
+    }
+  }
+  @media screen and (max-width: 600px){
+    .eksnons{
+        font-size: 30px;
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+    .container{
+        padding: 20px;
+        padding-top: 0;
     }
   }
