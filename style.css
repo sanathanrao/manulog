@@ -116,6 +116,7 @@ body {
 @media screen and (max-width: 600px){
     .dm, .next{
         padding: 20px;
+        padding-top: 80px;
     }
     .standmmm{
         font-size: 26px;
