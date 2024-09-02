@@ -708,7 +708,9 @@ body {
         font-weight: var(--fw-medium);
         color: var(--color-title);
     }
-    
+    .accordion__question:hover{
+        color: #1b7f8b;
+    }
     .accordion__answer{
         padding: 2rem 0;
         font-size: 18px;
