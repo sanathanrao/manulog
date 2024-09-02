@@ -587,23 +587,12 @@ body {
         margin-bottom: 10px;
     }
 }
-/* ---------------------------Faq--------------- */
-.hmpeeoi{
-    padding: 20px;
-}
-.hcdmitcj{
-    width: 80%;
-}
-.ydpepovckn{
-    display: flex;
-}
-.container {
-    font-family: "Rajdhani", sans-serif;
-    padding: 60px;
-    padding-top: 0;
-    margin-bottom: 100px;
-  }
-  .eksnons{
+
+
+
+
+/* =----------------- */
+.eksnons{
     padding-left: 60px;
     font-family: "Rajdhani", sans-serif;
     font-size: 45px;
@@ -612,131 +601,155 @@ body {
     color: #ff6a03;
     text-transform: uppercase;
   }
-  
-  .accordion .accordion-item {
-    border-bottom: 1px solid #e5e5e5;
-    padding: 10px;
-  }
-  
-  .accordion .accordion-item button[aria-expanded='true'] {
-    border-bottom: 1px solid #03b5d2;
-  }
-  
-  .accordion button {
-    position: relative;
-    display: block;
-    text-align: left;
-    width: 100%;
-    /* padding: 1em 0; */
-    padding: 26px;
-    padding-left: 0;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    color: #7288a2;
-    font-size: 1.15rem;
-    font-weight: 400;
-    border: none;
-    background: none;
-    outline: none;
-  }
-  
-  .accordion button:hover,
-  .accordion button:focus {
-    cursor: pointer;
-    color: #03b5d2;
-  }
-  
-  .accordion button:hover::after,
-  .accordion button:focus::after {
-    cursor: pointer;
-    color: #03b5d2;
-    border: 1px solid #03b5d2;
-  }
-  
-  .accordion button .accordion-title {
-    font-family: "Rajdhani", sans-serif;
-    padding: 1em 1.5em 1em 0;
-    font-size: 21px;
-    line-height: 24px;
-    font-weight: 500;
-  }
-  
-  .accordion button .icon {
-    display: inline-block;
-    position: absolute;
-    top: 18px;
-    right: 0;
-    width: 22px;
-    height: 22px;
-    border: 1px solid;
-    border-radius: 22px;
-  }
-  
-  .accordion button .icon::before {
-    display: block;
-    position: absolute;
-    content: '';
-    top: 9px;
-    left: 5px;
-    width: 10px;
-    height: 2px;
-    background: currentColor;
-  }
-  .accordion button .icon::after {
-    display: block;
-    position: absolute;
-    content: '';
-    top: 5px;
-    left: 9px;
-    width: 2px;
-    height: 10px;
-    background: currentColor;
-  }
-  
-  .accordion button[aria-expanded='true'] {
-    color: #03b5d2;
-  }
-  .accordion button[aria-expanded='true'] .icon::after {
-    width: 0;
-  }
-  .accordion button[aria-expanded='true'] + .accordion-content {
-    opacity: 1;
-    max-height: 9em;
-    transition: all 200ms linear;
-    will-change: opacity, max-height;
-  }
-  .accordion .accordion-content {
-    opacity: 0;
-    max-height: 0;
-    overflow: hidden;
-    transition: opacity 200ms linear, max-height 200ms linear;
-    will-change: opacity, max-height;
-  }
-  .accordion .accordion-content p {
-    font-family: "Lora", serif;
-    font-size: 16px;
-    font-weight: 300;
-    padding-top: 3px;
-    color: #7B8391;
-  }
-  @media screen and (max-width: 1330px){
+  .ydpepovckn{
+    display: flex;
+}
+@media screen and (max-width: 1330px){
     .ydpepovckn{
         flex-direction: column;
     }
-    .container{
-        margin-bottom: 0px;
-        padding-bottom: 0;
-    }
   }
-  @media screen and (max-width: 600px){
-    .eksnons{
-        font-size: 25px;
-        padding-left: 20px;
-        margin-bottom: 10px;
-    }
-    .container{
-        padding: 5px;
+/* ---------------------------Faq--------------- */
+   /* ---------------------------- */
+   :root{
 
-        padding-top: 0;
+    /* Colors */
+    --color-primary: #FF4B4B;
+    --color-text: #545d7a;
+    --color-white: #fff;
+    --color-title: #242e4c;
+    --color-background: #f7f8fb;
+    --color-border: #dae1f5;
+    
+    /* Fonts */
+    --font-family: "Satoshi", sans-serif;
+    --fs-sm: 1.4rem;
+    --fs-md: 1.6rem;
+    --fs-lg: 2.2rem;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-bold: 700;
+    
+    /* Transition & Box Shadow */
+    --transition: 0.4s ease-in-out; 
+    --shadow: 0px 60px 56px -12px rgba(9, 40, 163, 0.05); 
+    
     }
-  }
+    
+    html {
+        font-size: 62.5%;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* box-sizing: content-box; */
+    }
+    
+    body {
+        background-color: var(--color-background);
+        font-family: var(--font-family);
+        color: var(--color-text);
+        font-size: var(--fs-md);
+        font-weight: var(--fw-regular);
+    }
+    
+    .container{ 
+        padding: 2rem;
+    }
+    
+    .accordion__wrapper {
+        background-color: var(--color-white);
+        box-shadow: var(--shadow);
+        border-radius: 2.5rem;
+        width: 100%;
+        max-width: 60rem;
+        padding: 5rem;
+    }
+    
+    .accordion__title{
+        font-size: var(--fs-lg);
+        font-weight: var(--fw-bold);
+        color: var(--color-title);
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    
+    .accordion {
+        border-bottom: 0.1rem solid var(--color-border);
+        padding-bottom: 2rem;
+        margin-bottom: 3rem;
+    }
+    
+    .accordion__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        cursor: pointer;
+    } 
+    
+    .accordion__icon {
+        background-color: #ff6a03;
+        width: 2.2rem;
+        height: 2.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color: var(--color-white);
+        flex-shrink: 0;
+    }
+    
+    .accordion__question{
+        font-family: "Lora", serif;
+        font-size: 20px;
+        font-weight: var(--fw-medium);
+        color: var(--color-title);
+    }
+    
+    .accordion__answer{
+        padding: 2rem 0;
+        font-size: 18px;
+        margin: 10px 0;
+        color: rgb(123, 131, 145);
+        font-family: Lora, serif;
+        line-height: 30px;
+    }
+    
+    .accordion__content{
+        overflow: hidden;
+        height: 0;
+        transition: var(--transition);
+    }
+    
+    @media screen and (min-width: 580px) {
+        .accordion__wrapper {
+            padding: 5rem;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

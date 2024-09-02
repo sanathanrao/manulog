@@ -1,17 +1,22 @@
-const items = document.querySelectorAll('.accordion button');
 
-function toggleAccordion() {
-  const itemToggle = this.getAttribute('aria-expanded');
+// =================
+const accordions = document.querySelectorAll(".accordion");
 
-  for (i = 0; i < items.length; i++) {
-    items[i].setAttribute('aria-expanded', 'false');
-  }
+accordions.forEach((accordion, index) => {
+  const header = accordion.querySelector(".accordion__header");
+  const content = accordion.querySelector(".accordion__content");
+  const icon = accordion.querySelector("#accordion-icon");
 
-  if (itemToggle == 'false') {
-    this.setAttribute('aria-expanded', 'true');
-  }
-}
+  header.addEventListener("click", () => {
+    const isOpen = content.style.height === `${content.scrollHeight}px`;
 
-items.forEach((item) => item.addEventListener('click', toggleAccordion));
+    accordions.forEach((a, i) => {
+      const c = a.querySelector(".accordion__content");
+      const ic = a.querySelector("#accordion-icon");
 
-
+      c.style.height = i === index && !isOpen ? `${c.scrollHeight}px` : "0px";
+      ic.classList.toggle("ri-add-line", i !== index || !isOpen);
+      ic.classList.toggle("ri-subtract-fill", i === index && !isOpen);
+    });
+  });
+});
