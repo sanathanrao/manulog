@@ -724,13 +724,29 @@ body {
         transition: var(--transition);
     }
     
-    @media screen and (min-width: 580px) {
+    @media screen and (max-width: 580px) {
         .accordion__wrapper {
-            padding: 5rem;
+            padding: 1rem;
+            border-radius: 0;
+
         }
     }
     
-    
+    /* ----------- */
+    @media screen and (max-width: 700px){
+        .eksnons{
+            font-size: 28px;
+            padding-left: 20px;
+        }
+      }
+      @media screen and (max-width: 600px){
+       .container{
+        padding: 0px;
+       }
+       .accordion__wrapper{
+        padding: 20px;
+       }
+      } 
     
     
     
