@@ -186,8 +186,11 @@ body {
     margin: 10px 0;
 }
 .wtsuymb{
+    font-family: "Lora", serif;
     font-size: 18px;
-    color: #fff;
+    color: #000;
+    font-size: 19px;
+    font-weight: 500;
 }
 .callsc{
     display: flex;
@@ -201,11 +204,14 @@ body {
     margin-left: 40px;
     width: 400px;
     height: 200px;
-    background: url('https://img.freepik.com/free-photo/empty-blackboard_53876-30426.jpg');
+    color: #000;
+    border: 2px solid red;
+    background: #fff;
+    /* background: url('https://img.freepik.com/free-photo/empty-blackboard_53876-30426.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 .cspn{
     display: flex;
@@ -215,10 +221,10 @@ body {
 }
 .cwit{
     margin-top: 20px;
-    color: #fff;
+    color: #000;
 }
 .keyctiewd{
-   color: #fff;
+    color: #000;
     margin-top: 10px;
 }
 @media screen and (max-width: 1050px){
